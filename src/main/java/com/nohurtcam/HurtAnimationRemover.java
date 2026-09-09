@@ -8,8 +8,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(
    modid = "hurtanimationremover-port",
    version = "1.0",
-   acceptedMinecraftVersions = "[1.7.10]",
-   clientSideOnly = true
+   acceptedMinecraftVersions = "[1.7.10]"
 )
 public class HurtAnimationRemover {
    public static final String MOD_ID = "hurtanimationremover-port";
