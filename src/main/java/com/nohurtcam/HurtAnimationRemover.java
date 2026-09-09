@@ -1,14 +1,14 @@
-package wtf.boomy.mods.har;
+package com.nohurtcam;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.ModMetadata;
-import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.ModMetadata;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(
    modid = "hurtanimationremover-port",
    version = "1.0",
-   acceptedMinecraftVersions = "[1.8.8,1.8.9]",
+   acceptedMinecraftVersions = "[1.7.10]",
    clientSideOnly = true
 )
 public class HurtAnimationRemover {
