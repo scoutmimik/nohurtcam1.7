@@ -42,4 +42,7 @@ dependencies {
 }
 
 jar {
+    manifest {
+        attributes 'FMLCorePlugin': 'com.nohurtcam.FMLLoadingPlugin'
+    }
 }
