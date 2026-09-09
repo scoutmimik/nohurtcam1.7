@@ -1,4 +1,4 @@
-package wtf.boomy.mods.har;
+package com.nohurtcam;
 
 import net.minecraft.launchwrapper.IClassTransformer;
 import net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper;
