@@ -1,11 +1,11 @@
-package wtf.boomy.mods.har;
+package com.nohurtcam;
 
 import java.util.Map;
-import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
-import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.MCVersion;
-import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.TransformerExclusions;
+import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
+import cpw.mods.fml.relauncher.IFMLLoadingPlugin.MCVersion;
+import cpw.mods.fml.relauncher.IFMLLoadingPlugin.TransformerExclusions;
 
-@MCVersion("1.8.9")
+@MCVersion("1.7.10")
 @TransformerExclusions({"wtf.boomy.mods"})
 public class FMLLoadingPlugin implements IFMLLoadingPlugin {
    public String[] getASMTransformerClass() {
